@@ -1,0 +1,20 @@
+# Local build and runtime output
+build/
+out/
+dist/
+
+# Android / Windows toolchains are installed locally
+.vs/
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+__pycache__/

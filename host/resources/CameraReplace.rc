@@ -1,0 +1,14 @@
+// Embeds the side-by-side application manifest into the .exe so Windows
+// reads it on launch:
+//   - requireAdministrator → UAC prompt before main() runs; refusal
+//     cancels CreateProcess so the program never starts unprivileged.
+//   - Per-monitor DPI awareness for the borderless ImGui chrome.
+//
+// Resource ID 1, type RT_MANIFEST (24) — the canonical slot the loader
+// looks at. Path is relative to this .rc file's directory.
+
+#include <winver.h>
+
+#define CR_MANIFEST_RESOURCE_ID 1
+
+CR_MANIFEST_RESOURCE_ID 24 "CameraReplace.manifest"
