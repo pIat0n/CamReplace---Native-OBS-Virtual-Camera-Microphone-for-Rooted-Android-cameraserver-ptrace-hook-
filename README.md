@@ -56,6 +56,18 @@ No backend, private key, environment file, VMProtect installation, or prebuilt p
 - `third_party/` — source dependencies required by the build.
 - `scripts/` and `toolchains/` — implementation used by `build.bat`.
 
+## Support and updates
+
+Follow the [CameraReplace Telegram channel](https://t.me/CameraReplaceService) for project news, support, and future compatibility updates for different smartphone models.
+
+You can support continued development with USDT. Send funds only over the network shown for each address:
+
+- **USDT (TON):** `UQA2RCTTi6fyQE8LLgGR7NcBhY4GkDAIVnF6O0c4jGlABWjs`
+- **USDT (TRC20):** `TU3TeGPfMJDwqwd3RefFVft1Xn9JNyTiUL`
+- **USDT (SPL):** `HxQHjW64McYiJMjUZPtisb9uEijWRk2G9q3Rogv1cHGg`
+- **USDT (ERC20):** `0xC168ACfD9cae5ac2416b61a55BB0A8c82C48a79A`
+- **USDT (BEP20):** `0xC168ACfD9cae5ac2416b61a55BB0A8c82C48a79A`
+
 ## Responsible use
 
 Use CameraReplace only on devices you own or are explicitly authorized to test. Do not use it to misrepresent camera or microphone input to people, identity checks, financial applications, access-control systems, or other services.
