@@ -1,11 +1,17 @@
 # CameraReplace
 
+**English** | [Русский](README_RU.md)
+
 <img width="1284" height="762" alt="image" src="https://github.com/user-attachments/assets/bc1f329d-c67a-43de-8c9b-c9b75c097fff" />
 
 
 CameraReplace is a Windows host application and a set of native Android components for feeding OBS video and audio into a rooted Android test device over USB. The Windows application receives an RTMP stream, forwards media through private ADB tunnels, and controls the phone-side feed and hook lifecycle.
 
 This repository contains the public development edition. It has no licensing backend, Telegram authentication, bug-report uploader, production credentials, VMProtect project, launch-ticket gate, or release build pipeline. The encrypted host-to-device media channel is negotiated locally and does not require a server.
+
+## Download
+
+Prebuilt Windows executables are published on the [GitHub Releases page](https://github.com/pIat0n/CamReplace---Native-OBS-Virtual-Camera-Microphone-for-Rooted-Android-cameraserver-ptrace-hook-/releases). The source code remains fully buildable with `build.bat` as described below.
 
 ## Features
 
