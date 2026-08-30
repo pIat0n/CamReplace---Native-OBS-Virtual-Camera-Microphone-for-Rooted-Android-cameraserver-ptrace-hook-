@@ -83,4 +83,4 @@ Use CameraReplace only on devices you own or are explicitly authorized to test. 
 
 ## License
 
-A project license has not yet been selected. Third-party components retain their original licenses; see `THIRD_PARTY_NOTICES.txt` and the license files stored beside those components.
+CameraReplace is licensed under the [GNU General Public License v3.0 only](LICENSE). If you distribute a modified version or executable, you must comply with GPL-3.0, including providing the corresponding source code to recipients. Third-party components retain their original licenses; see `THIRD_PARTY_NOTICES.txt` and the license files stored beside those components.
